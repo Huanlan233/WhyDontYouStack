@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "whydontyoustack",
+	"version": "${version}",
+	"name": "WhyDontYouStack",
+	"description": "JUST FUCKING STACK",
+	"authors": [
+		"Huanlan233"
+	],
+	"contact": {
+		"sources": "https://github.com/Huanlan233/WhyDontYouStack"
+	},
+	"license": "MIT",
+	"icon": "assets/whydontyoustack/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.htext.whydontyoustack.WhyDontYouStack"
+		]
+	},
+	"mixins": [
+		"whydontyoustack.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
